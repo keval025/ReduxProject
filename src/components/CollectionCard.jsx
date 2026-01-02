@@ -17,7 +17,7 @@ const CollectionCard = ({item}) => {
                 {item.type == 'gif' ? <img className='h-full w-full object-cover object-center' src={item.src} alt="" /> : ''}
             </a>
             <div id='bottom' className='flex justify-between gap-3 items-center w-full px-4 py-6 absolute bottom-0 text-white'>
-                <h2 className='text-lg font-semibold capitalize h-14 overflow-hidden'>{item.title}</h2>
+                <h2 className='text-lg font-psemibold capitalize h-14 overflow-hidden'>{item.title}</h2>
                 <button
                     onClick={() => {
                         removeFromCollection(item)
